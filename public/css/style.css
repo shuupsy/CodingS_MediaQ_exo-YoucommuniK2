@@ -15,9 +15,10 @@ footer {
     background-color: #393A3B;
     color: white;
     padding-top: 40px;
+    padding-bottom: 25px;
 }
 
-.container {
+.ftr-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -33,6 +34,10 @@ footer {
 footer img {
     width: 50px;
     margin-right: 10px;
+}
+
+.ftr-container h4 {
+    padding-bottom: 20px;
 }
 
 #conditions {
