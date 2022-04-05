@@ -33,8 +33,41 @@ nav {
     grid-template-columns: repeat(6, 1fr);
     text-align: center;
 }
-
 /* Fin nav */
+
+/* Début titre principal */
+.titre {
+    background-color: #334D5C;
+    color: white;
+    height: 35vh;
+    display: grid;
+    grid-template-columns: 20% 3fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre div:first-child {
+    display: grid;
+    justify-content: end;
+}
+.titre div:last-child {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+   font-size: 3em;
+}
+/* Fin titre principal */
+
 
 /* Début footer */
 footer {
