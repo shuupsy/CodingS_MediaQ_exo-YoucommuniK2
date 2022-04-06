@@ -18,7 +18,7 @@ body {
 nav {
     background-color: #1A1A1D;
     color: white;
-    height: 15vh;
+    height: 20vh;
     display: grid;
     grid-template-columns: 40% 1fr;
     justify-content: end;
@@ -27,13 +27,18 @@ nav {
 
 .logo img {
     padding-left: 10px;
-    width: 60%;
+    width: 50%;
 }
 
 .menu {
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+.menu img {
+    width: 50px;
 }
 
 /* Fin nav */
@@ -42,9 +47,9 @@ nav {
 .titre {
     background-color: #334D5C;
     color: white;
-    height: 35vh;
+    height: 50vh;
     display: grid;
-    grid-template-columns: 20% 3fr;
+    grid-template-columns: 30% 1fr;
     justify-content: center;
     align-items: center;
 }
@@ -56,17 +61,19 @@ nav {
 
 .titre div:last-child {
     display: grid;
-    justify-content: space-evenly;
+    justify-content: start;
+    padding-left: 15%;
 }
 
 h1 {
     font-weight: normal;
-    font-size: 60px;
+    font-size: 2rem;
 }
 
 h2 {
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-top: 15px;
 }
 
 /* Fin titre principal */
