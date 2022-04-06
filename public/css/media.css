@@ -21,6 +21,7 @@
     body {
         margin: 0 auto;
     }
+    /* Début header */
     nav {
         height: 10vh;
         grid-template-columns: 1fr;
@@ -29,31 +30,28 @@
     .menu {
         display:none;
     }
+    /* Fin header */
+    
+    /* Section titre */
     .titre {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 125px;
-        align-items:unset;
+        display: flex;
+        flex-direction: column;
     }
-    .titre img {
-        width: 40%;
-    }
+   
     .titre div:first-child {
         display: flex;
         justify-content: center;
-        align-items: flex-end;
     }
     .titre div:last-child {
+        padding-top: 20px;
         padding-left: 0;
         text-align: center;
-        justify-content: center;
-        align-items: center;
     }
     h1 {
         font-size: 25px;
     }
     h2 {
         font-size: 1rem;
-        padding-top: 0;
     }
     
 }
