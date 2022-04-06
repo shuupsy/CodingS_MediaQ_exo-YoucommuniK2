@@ -13,7 +13,7 @@
     body {
         margin: 0 auto;
     }
-    
+
 }
 
 /* 320px à 740px */
@@ -21,37 +21,55 @@
     body {
         margin: 0 auto;
     }
+
     /* Début header */
     nav {
         height: 10vh;
         grid-template-columns: 1fr;
         text-align: center;
     }
+
     .menu {
-        display:none;
+        display: none;
     }
-    /* Fin header */
-    
+
     /* Section titre */
     .titre {
         display: flex;
         flex-direction: column;
     }
-   
+
     .titre div:first-child {
         display: flex;
         justify-content: center;
     }
+
     .titre div:last-child {
         padding-top: 20px;
         padding-left: 0;
         text-align: center;
     }
+
     h1 {
         font-size: 25px;
     }
+
     h2 {
         font-size: 1rem;
     }
-    
-}
+
+    /* Début sections explications */
+    #eclo-imgtxt,
+    #evo-imgtxt,
+    #envol-imgtxt {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #eclo-img img,
+    #evo-img img,
+    #envol-img img {
+        width: 50%;
+        padding-bottom: 20px;
+    }
