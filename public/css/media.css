@@ -5,49 +5,40 @@
     }
 
 }
-
 /* 320px à 740px */
 @media (min-width: 320px) and (max-width: 740px) {
     body {
         margin: 0 auto;
     }
-
     /* Début header */
     nav {
         height: 10vh;
         grid-template-columns: 1fr;
         text-align: center;
     }
-
     .menu {
         display: none;
     }
-
     /* Section titre */
     .titre {
         display: flex;
         flex-direction: column;
     }
-
     .titre div:first-child {
         display: flex;
         justify-content: center;
     }
-
     .titre div:last-child {
         padding-top: 20px;
         padding-left: 0;
         text-align: center;
     }
-
     h1 {
         font-size: 25px;
     }
-
     h2 {
         font-size: 1rem;
     }
-
     /* Début sections explications */
     #eclo-imgtxt,
     #evo-imgtxt,
@@ -63,12 +54,14 @@
         width: 50%;
         padding-bottom: 20px;
     }
+
     /* Début footer */
     .ftr-container {
         display: inline-flex;
         flex-direction: column;
     }
-    .ftr-packs, .ftr-outils {
+    .ftr-packs,
+    .ftr-outils {
         display: inline-flex;
         justify-content: center;
         padding-bottom: 20px;
@@ -76,3 +69,4 @@
     h4 {
         padding-right: 20px;
     }
+}
