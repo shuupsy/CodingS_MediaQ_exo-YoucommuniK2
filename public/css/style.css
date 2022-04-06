@@ -91,7 +91,8 @@ h2 {
     background-color: #334D5C;
     display: inline;
     color: white;
-    padding: 0 50px;
+    padding: 0 40px;
+    margin-bottom: 20px;
 }
 
 .eclosion,
@@ -116,7 +117,7 @@ h2 {
 #eclo-img img,
 #evo-img img,
 #envol-img img {
-    width: 55%;
+    width: 60%;
 }
 /* Fin Sections explication */
 main p {
