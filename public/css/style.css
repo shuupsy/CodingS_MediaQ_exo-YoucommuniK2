@@ -73,11 +73,7 @@ h2 {
 
 /* Fin titre principal */
 
-/* Début Section ECLOSION */
-
-/* Fin Section Eclosion */
-
-/* Début Section Evolution */
+/* Début Sections explications */
 #eclo-titre,
 #evo-titre,
 #envol-titre {
@@ -113,12 +109,10 @@ h2 {
     padding: 10px 14%;
 }
 
-/* Fin Section Evolution */
+/* Fin Sections explication */
 
 /* Regroupement section LIENS */
-main section:nth-child(3),
-main section:nth-child(5),
-main section:nth-child(7) {
+main section:nth-child(3), main section:nth-child(5), main section:nth-child(7) {
     background-color: #EAE3D6;
     display: flex;
     justify-content: space-evenly;
@@ -127,9 +121,7 @@ main section:nth-child(7) {
     padding: 30px 0;
 }
 
-main section:nth-child(3) img,
-main section:nth-child(5) img,
-main section:nth-child(7) img {
+main section:nth-child(3) img, main section:nth-child(5) img, main section:nth-child(7) img {
     width: 50%;
 }
 
@@ -148,9 +140,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.ftr-packs,
-.ftr-outils,
-.ftr-social {
+.ftr-packs, .ftr-outils, .ftr-social {
     display: grid;
     align-items: center;
     justify-content: center;
@@ -168,4 +158,5 @@ footer img {
 #conditions {
     display: flex;
     justify-content: end;
+    padding-right: 15px;
 }
