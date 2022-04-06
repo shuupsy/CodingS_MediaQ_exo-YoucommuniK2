@@ -115,6 +115,7 @@ h2 {
 main section:nth-child(3), main section:nth-child(5), main section:nth-child(7) {
     background-color: #EAE3D6;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
