@@ -133,6 +133,7 @@ main section:nth-child(3), main section:nth-child(5), main section:nth-child(7) 
     align-items: center;
     text-align: center;
     padding: 20px 0;
+    box-sizing: border-box;
 }
 
 main section:nth-child(5) {
@@ -140,11 +141,7 @@ main section:nth-child(5) {
 }
 
 main section:nth-child(3) img, main section:nth-child(5) img, main section:nth-child(7) img {
-    width: 30%;
-}
-
-section:nth-child(5) img {
-    width: 25%;
+    width: 70px;
 }
 
 /* Fin Section LIENS */
@@ -169,7 +166,7 @@ footer {
 }
 
 footer img {
-    width: 70px;
+    width: 60px;
     padding-right: 10px;
 }
 
