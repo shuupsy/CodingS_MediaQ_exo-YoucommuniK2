@@ -58,17 +58,19 @@ nav {
     justify-content: space-evenly;
 }
 
-h1 {
+h1{
     font-weight: normal;
     font-size: 75px;
     background-color: #334D5C;
     display: inline;
     color: white;
+    padding: 0 50px;
 }
 
 h2 {
     font-weight: normal;
     font-size: 3rem;
+    padding: 0 50px;
 }
 
 /* Fin titre principal */
