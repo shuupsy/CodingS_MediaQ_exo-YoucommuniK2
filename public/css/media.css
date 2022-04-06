@@ -8,9 +8,6 @@
     nav {
         grid-template-columns: 35% 1fr;
     }
-    .logo img {
-        width: 80%;
-    }
 }
 
 /* 740px à 1024px */
