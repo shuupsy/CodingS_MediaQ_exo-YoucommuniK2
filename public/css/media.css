@@ -73,8 +73,8 @@
     .menu img {
         width: 40px;
     }
-
     /* Fin header */
+
     /* Section titre */
     .titre {
         display: flex;
@@ -121,7 +121,7 @@
     .ftr-outils {
         display: inline-flex;
         justify-content: center;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
 
     h4 {
