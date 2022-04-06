@@ -1,7 +1,20 @@
+/* 1024px */
+@media (min-width: 1024px) {
+    body {
+        margin: 0 auto;
+        width: 60%;
+        box-shadow: 0px 0px 35px 1px rgb(172, 172, 172);
+    }
+    .logo {
+        padding: 0;
+        width: 100%;
+    }
+}
+
 /* 740px à 1024px */
 @media (min-width: 740px) and (max-width: 1024px) {
     body {
-        margin: 0 auto;
+        box-shadow: 0px 0px 35px 1px rgb(172, 172, 172);
     }
 
 }
@@ -23,6 +36,7 @@
     .titre {
         display: flex;
         flex-direction: column;
+        height: 80vh;
     }
     .titre div:first-child {
         display: flex;
@@ -51,7 +65,7 @@
     #eclo-img img,
     #evo-img img,
     #envol-img img {
-        width: 50%;
+        width: 60%;
         padding-bottom: 20px;
     }
 
