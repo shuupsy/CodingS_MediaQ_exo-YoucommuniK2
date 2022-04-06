@@ -5,8 +5,14 @@
         width: 60%;
         box-shadow: 0px 0px 35px 1px rgb(172, 172, 172);
     }
+
     nav {
         grid-template-columns: 35% 1fr;
+    }
+
+    input,
+    label {
+        display: none;
     }
 }
 
@@ -15,6 +21,11 @@
     body {
         box-shadow: 0px 0px 35px 1px rgb(172, 172, 172);
     }
+
+    input,
+    label {
+        display: none;
+    }
 }
 
 /* 320px à 740px */
@@ -22,58 +33,98 @@
     body {
         margin: 0 auto;
     }
+
     /* Début header */
     nav {
         height: 20vh;
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         text-align: center;
-    }
-    .menu {
-        display: none;
-    }
-    /* Section titre */
-    .titre {
-        display: flex;
-        flex-direction: column;
-        height: 80vh;
-    }
-    .titre div:first-child {
-        display: flex;
         justify-content: center;
-        align-items: flex-end;
-    }
-    .titre div:last-child {
-        padding-top: 20px;
-        padding-left: 0;
-        text-align: center;
-    }
-    h1 {
-        font-size: 25px;
-    }
-    h2 {
-        font-size: 1rem;
-    }
-    /* Début sections explications */
-    #eclo-imgtxt,
-    #evo-imgtxt,
-    #envol-imgtxt {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        text-align: center;
     }
 
-    /* Début footer */
-    .ftr-container {
+    /* Hamburger */
+    .menu, .menu p,
+    input {
+        display: none;
+    }
+    
+    label {
+        display: inline-block;
+        color: white;
+        font-size: 2rem;
+        padding: 10px;
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
+
+    input:checked ~ .menu {
         display: inline-flex;
         flex-direction: column;
+        align-items: flex-start;
+        height: 100px;
+        width: 100%;
+        position:absolute;
+        top:150px;
+        left:10px;
+        background-color: transparent;
     }
-    .ftr-packs,
-    .ftr-outils {
-        display: inline-flex;
-        justify-content: center;
-        padding-bottom: 20px;
-    }
-    h4 {
-        padding-right: 20px;
-    }
+.menu img {
+    width: 40px;
+}
+
+/* Fin header */
+/* Section titre */
+.titre {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.titre div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.titre div:last-child {
+    padding-top: 20px;
+    padding-left: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+/* Début sections explications */
+#eclo-imgtxt,
+#evo-imgtxt,
+#envol-imgtxt {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+/* Début footer */
+.ftr-container {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.ftr-packs,
+.ftr-outils {
+    display: inline-flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+h4 {
+    padding-right: 20px;
+}
 }
