@@ -1,13 +1,3 @@
-/* 1024px */
-/* @media screen and (min-width: 1024px) {
-    body {
-        margin: 0 auto;
-        width: 60%;
-        box-shadow: 0px 0px 35px 1px rgb(172, 172, 172);
-    }
-} */
-
-
 /* 740px à 1024px */
 @media (min-width: 740px) and (max-width: 1024px) {
     body {
@@ -72,4 +62,17 @@
     #envol-img img {
         width: 50%;
         padding-bottom: 20px;
+    }
+    /* Début footer */
+    .ftr-container {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .ftr-packs, .ftr-outils {
+        display: inline-flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    h4 {
+        padding-right: 20px;
     }
