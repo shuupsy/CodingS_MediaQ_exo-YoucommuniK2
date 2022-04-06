@@ -97,12 +97,12 @@ h2 {
 .eclosion,
 .evolution,
 .envol {
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 #eclo-imgtxt,#evo-imgtxt,#envol-imgtxt {
     display: grid;
-    grid-template-columns: 30% 3fr;
+    grid-template-columns: 40% 1fr;
 }
 
 #eclo-img,
@@ -113,9 +113,14 @@ h2 {
     align-items: flex-end;
 }
 
+#eclo-img img,
+#evo-img img,
+#envol-img img {
+    width: 55%;
+}
 /* Fin Sections explication */
 main p {
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px 7%;
     /* pour tous les p de main (texte explications + txt sous logo */
 }
