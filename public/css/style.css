@@ -129,15 +129,22 @@ main p {
 main section:nth-child(3), main section:nth-child(5), main section:nth-child(7) {
     background-color: #EAE3D6;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
+}
+
+main section:nth-child(5) {
+    flex-wrap: wrap;
 }
 
 main section:nth-child(3) img, main section:nth-child(5) img, main section:nth-child(7) img {
-    width: 50%;
+    width: 30%;
+}
+
+section:nth-child(5) img {
+    width: 25%;
 }
 
 /* Fin Section LIENS */
