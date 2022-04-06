@@ -117,7 +117,8 @@ h2 {
 #eclo-img img,
 #evo-img img,
 #envol-img img {
-    width: 60%;
+    width: 200px;
+    padding-bottom: 20px;
 }
 /* Fin Sections explication */
 main p {
